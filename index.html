@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+
     <title>Document</title>
+    <link rel=" stylesheet" href="style.css"/>
 </head>
 <body>
     <header>
     <h1>Document</h1>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/WgZIv5HI44o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <nav>
-    <a  href="www.youtube.com" about></a>
+    
 
 <a href="#about">About</a>
 <a href="#Resume">Resume</a>
 <a href="#Work">Work</a>
-<a href="#Contact">Contact</a>
+<a href="#Contact" id="contact-us">Contact</a>
 </nav>
 </header>
-<main>
-<div id="About">
+<main class="css-selector">
+<div id="about">
+<a  href="www.youtube.com" > </a>
 <h1> Marwa Saadi</h1>
 <h2> Profession: Developpeur informatique</h2>
-<img src="profile.jpg" alt="profile-image">
+<img src="profile.jpg" alt="profile-image" width="300px" height="70px">
 </div>
 <div id="Resume">
     <p>I work On frelance projects</p>
@@ -31,26 +34,42 @@
 <div id="Work">
     <h3>Skills</h3>
     <ul>
+     
         <li>React Js</li>
         <li>Mongo DB</li>
         <li>Node Js</li>
+    
     </ul>
-</div>
-<div id="Contact">
-
 </div>
 </main>
 <footer id="Contact">
 <form>
+    <div>
+        <h4>
     <labe for="name">Name</labe>
-    <input id="name" type= "text" placeholder="name"/>
-    <label for = "Email"> Email</label>
-    <input id="Email" type="Email" placeholder="Email"/>
-    <textarea id="Story" name="Story" rows="5" cols="33" placeholder="It was a fark ..">  It was a fark ...</textarea>
-   
-
+    <input id="name" type= "text" placeholder=" your name"/>
+</h4>
+</div>
+<div>
+<h4>
+    <label for = "email"> email</label>
+    <input id="email" type="email" placeholder=" your email"/>
+</h4>
+</div>
+<div>
+ 
+    <textarea id="story" name="story" rows="5" cols="33">  It was a fark ...</textarea>
+       
+</div>
+<div>
+   <button type="submit"> submit </button>
+</div>
 
 </form>
 </footer>
+<div class="profil-items">
+    <img src=" avatar.jpg" alt="user" width="70px" id="user"/>
+    <img src=" message.jpg" alt="user" width="70px" id="message"/>
+</div>
 </body>
 </html>
